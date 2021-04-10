@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.text.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+
+<Pane fx:controller="baikiemtra.Controller" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="659.0" prefWidth="1071.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+      <Text layoutX="403.0" layoutY="35.0" strokeType="OUTSIDE" strokeWidth="0.0" text="The Airline Reservation System" wrappingWidth="301.6708984375">
+         <font>
+            <Font size="19.0" />
+         </font>
+      </Text>
+      <TextArea fx:id="txtAddress" layoutX="803.0" layoutY="328.0" prefHeight="31.0" prefWidth="186.0" promptText="Address" />
+      <TextField fx:id="txtID" layoutX="803.0" layoutY="94.0" promptText="ID" />
+      <TextField fx:id="txtName" layoutX="806.0" layoutY="177.0" promptText="Name" />
+      <TextField fx:id="txtPhone" layoutX="806.0" layoutY="243.0" promptText="Phone" />
+      <Text layoutX="840.0" layoutY="84.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Reservation ID" />
+      <Text layoutX="872.0" layoutY="224.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Phone" />
+      <Text layoutX="843.0" layoutY="162.0" strokeType="OUTSIDE" strokeWidth="0.0" text="PassengerName" />
+      <Text layoutX="869.0" layoutY="307.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Address" />
+      <Text layoutX="852.0" layoutY="479.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Date of return" />
+      <TextArea fx:id="txtDeparture" layoutX="809.0" layoutY="402.0" prefHeight="31.0" prefWidth="186.0" promptText=" departure" />
+      <Text layoutX="843.0" layoutY="386.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Date of departure" wrappingWidth="117.75146484375" />
+      <Button layoutX="875.0" layoutY="589.0" mnemonicParsing="false" text="Display" />
+      <Button layoutX="803.0" layoutY="589.0" mnemonicParsing="false" text="Add" />
+      <Button layoutX="964.0" layoutY="589.0" mnemonicParsing="false" text="Exit" />
+      <TextArea fx:id="txtReturn" layoutX="809.0" layoutY="495.0" prefHeight="31.0" prefWidth="186.0" promptText="return" />
+      <TextArea fx:id="txtKetqua" layoutX="154.0" layoutY="94.0" prefHeight="450.0" prefWidth="551.0" />
+   </children>
+</Pane>
