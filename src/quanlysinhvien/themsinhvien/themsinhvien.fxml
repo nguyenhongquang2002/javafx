@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+
+<Pane  fx:controller="quanlysinhvien.themsinhvien.Controller" fx:id="tex" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="600.0" prefWidth="800.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+      <TextField fx:id="txtName" layoutX="143.0" layoutY="41.0" prefHeight="63.0" prefWidth="553.0" promptText="Name" />
+      <TextField fx:id="txtAge" layoutX="143.0" layoutY="143.0" prefHeight="63.0" prefWidth="553.0" promptText="Age" />
+      <TextArea fx:id="txtMark" layoutX="143.0" layoutY="248.0" prefHeight="105.0" prefWidth="553.0" promptText="Mark" />
+      <Button fx:id="txtvao" layoutX="143.0" layoutY="406.0" mnemonicParsing="false" prefHeight="31.0" prefWidth="109.0" text="vao" />
+      <Button fx:id="txtthem" layoutX="368.0" layoutY="406.0" mnemonicParsing="false" prefHeight="31.0" prefWidth="103.0" text="them" />
+      <Button fx:id="txtback" layoutX="584.0" layoutY="406.0" mnemonicParsing="false" prefHeight="31.0" prefWidth="85.0" text="&lt;&lt;back" />
+   </children>
+</Pane>
